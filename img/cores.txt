@@ -1,0 +1,16 @@
+Cores HEX Cria Fabrico:
+Cor: 034001
+Cor ao focalizar: 20731d , borda: 025918
+
+
+Amstel:
+Caixa de Seleção:
+Cor: a98600
+Focalizar: borda - a98600 , fill - e0b91b
+
+Dropdown:
+Cor: a98600
+Cor seleção: a98600
+Cor divisa: e0bb24
+
+Input_Cl/Lote4_1  535

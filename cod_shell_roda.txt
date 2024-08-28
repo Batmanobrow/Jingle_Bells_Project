@@ -1,0 +1,14 @@
+# Desativa a verificação para instalar o streamlit
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+#Ativa o ambiente virtual (no meu caso, estava usando o myenv)
+myenv\Scripts\Activate
+
+#Instala o streamlit
+pip install --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host=files.pythonhosted.org streamlit
+
+#Reativa a verificação (MUITO IMPORTANTE)
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Default
+
+#Roda o streamlit chamando python (não consegui criar váriavel de ambiente apontando, por isso executava assim)
+python -m streamlit run app.py

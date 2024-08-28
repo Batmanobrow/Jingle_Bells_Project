@@ -1,0 +1,10 @@
+Patch(
+    'PQPL(Process_Quality_Performance_List)';
+    Defaults('PQPL(Process_Quality_Performance_List)');
+    {
+        Fabrico: Input_Fabrico.Text;
+        'Ordem SAP':Input_Ord_de_Prod.Text;
+        'Data e Hora Fim de Fabrico': DatePicker.SelectedDate;
+        Produto: Dropdown_Produto.Selected.Value
+    }
+)
